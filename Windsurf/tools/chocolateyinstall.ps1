@@ -8,10 +8,8 @@ $packageArgs = @{
   fileType      = 'exe'
   url           = $url
   softwareName  = 'Windsurf*' #part or all of the Display Name as you see it in Programs and Features. It should be enough to be unique
-  checksum      = '5642023F1019BB35A04F495B67E039E3'
+  checksum      = '197C096DDAD61607EF0EE9B289147C0C'
   checksumType  = 'sha256' #default is md5, can also be sha1, sha256 or sha512
-  checksum64    = ''
-  checksumType64= 'sha256' #default is checksumType
   silentArgs    = "/VERYSILENT" # ALLUSERS=1 DISABLEDESKTOPSHORTCUT=1 ADDDESKTOPICON=0 ADDSTARTMENU=0
   validExitCodes= @(0, 3010, 1641)
 }
